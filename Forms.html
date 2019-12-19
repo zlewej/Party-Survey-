@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<link href="https://fonts.googleapis.com/css?family=playfairweather|Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+
+
+<style>
+  .box{
+    width: 325px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 4px;
+    margin: auto;
+    background-color:rgba(252, 176, 0, .60);
+  }
+  .box1{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #ABFF8C;
+  }
+<!-- elements -->
+p{
+  font-size: 13px;
+}
+h1{
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+body{
+  background-color: white;
+}
+<!-- classes -->
+.text{
+  font-size: 13px;
+}
+.submitMessage{
+  font-size: 13px;
+  margin-left: 55px;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+}
+.foodCenter{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 25px;
+}
+.submit{
+  margin-left: 130px;
+}
+</style
+
+<body>
+  <form>
+  <h1>Party Survey</h1>
+    <div class='box'>
+      <div class='playfair'>
+      <u>Theme:</u><br>
+      </div>
+        <div class='text'>
+        (<i>please suggest a theme for the party</i>)
+        <input type='input' name='theme'><br>
+        </div>
+      <br>
+      <div class='playfair'>
+        <u>Drinks:</u><br>
+      </div>
+        <input type='checkbox' name='soda'>soda<br>
+        <input type='checkbox' name='water'>water<br>
+        <input type='checkbox' name='claw'>white claw<br>
+        <input type='checkbox' name='all'> all of the above<br>
+      <br>
+      <div class='foodCenter'>
+        <i><u>Food</u></i>
+      </div>
+      <br>
+      <!-- food selections that are available-->
+        <div class='playfair'>
+          <u>Savory</u>
+        </div>
+          <input type='radio' name=''>chicken alfredo</br>
+          <input type='radio' name=''>salmon terryaki</br>
+          <input type='radio' name=''>rib-eye steak
+            <div class='box1'>
+              <p>Select <strong><i>vegeterian</i></strong> if you don't eat meat</p>
+              <input type='radio' name='gender' value='Savory'>
+              vegeterian
+              <p>(<i>check all that apply</i>)</p>
+              <input type='checkbox'>hummus <br>
+              <input type='checkbox'>fruit-platter <br>
+              <input type='checkbox'>house salad
+            </div>
+          <div class='playfair'>
+            <u>Finger-Foods</u>
+          </div>
+          <!-- dropdown list to select type of fingerFoods -->
+            <select name='fingerFoods'>
+            <option value='chips'>chips</option>
+            <option value='bbq'>bbq skewers</option>
+            <option value='fruitPlatter'>bruschetta</option>
+            </select>
+          <br>
+          <br>
+          <!-- dropdown list to select type of dessert -->
+          <div class='playfair'>
+            <u>Dessert</u><br>
+          </div>
+            <select name='dessert'>
+              <option value='cookies'>cookies</option>
+              <option value='cupcakes'>cupcakes</option>
+              <option value='pie'>pie</option>
+            </select>
+          <br><br>
+        <div class='submitMessage'>
+          (<i>please click submit to enter your results</i>)
+        </div>
+          <div class='submit'>
+            <input type='submit'>
+          </div>
+    </div>
+  </form>
+</body>
+<footer>&copy; Julius A. Garma</footer>
+</html>
